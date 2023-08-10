@@ -4,7 +4,6 @@ import useGeolocation from "./hooks/useGeolocation";
 
 function App() {
     const [show, setShow] = useState(false);
-    console.log(useGeolocation())
     const {
         loading,
         position: { lat, long },
